@@ -874,5 +874,25 @@ export const books: Book[] = [
     reviewCount: 16,
     inStock: true,
     featured: true,
-  }
+  },
+  {
+  id: '46',
+  title: 'Harry Potter and the Philosopher\'s Stone',
+  author: 'J.K. Rowling',
+  description: 'The first book in the Harry Potter series, introducing the wizarding world and Harry\'s journey at Hogwarts.',
+  price: 29.99,
+  image: '/images/harry_potter1.jpg',
+  isbn: '978-0747532699',
+  genre: ['Fantasy', 'Adventure'],
+  tags: ['Magic', 'Wizards', 'Fantasy'],
+  datePublished: '1997-06-26',
+  pages: 223,
+  language: 'English',
+  publisher: 'Bloomsbury',
+  rating: 4.9,
+  reviewCount: 1500,
+  inStock: true,
+  featured: true,
+}
+
 ];
